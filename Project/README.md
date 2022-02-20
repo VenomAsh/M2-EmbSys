@@ -1,4 +1,6 @@
-# Automatic Lighting System
+# **Automatic Lighting System**
+
+![light_on_off](https://user-images.githubusercontent.com/98833151/154866445-e8370c38-fb8c-4778-a0e2-8909de315dfa.jpg)
 
 ## Block Diagram:
 
@@ -11,7 +13,7 @@
 
 #### Sensor:
 
-**Photoelectric sensor** is a device used to determine the distance, absence, or presence of an object by using infrared rays and a photoelectric receiver.
+:small_orange_diamond: **Photoelectric sensor** is a device used to determine the distance, absence, or presence of an object by using infrared rays and a photoelectric receiver.
 
 #### Working: 
 
