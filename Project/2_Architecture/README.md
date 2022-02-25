@@ -2,13 +2,13 @@
 
 ### DESIGN:
 
-📌Structural Diagram:
+**📌Structural Diagram:**
 
 📍Black Box:
 
+![ALS_Blackbox](https://user-images.githubusercontent.com/98833151/155700398-a0d86d0b-6b09-4fd6-829c-42347e5ba770.png)
 
-
-📌Behavioural Diagram:
+**📌Behavioural Diagram:**
 
 📍Block Diagram:
 
