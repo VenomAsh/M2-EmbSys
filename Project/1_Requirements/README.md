@@ -1,14 +1,28 @@
 # **Automatic Lighting System**
 
-Abstract:
+## Abstract:
 
-The cbjective of this project is to help conserve costs, save energy and also improve home safety. As automatic lights function only on sensing persons, waste of electricity caused by active lights in unused areas can be avoided. Minimal usage of lamps also increases lamp-life thereby reducing maintenance and replacement costs. Most of the times, many of us forget to switch off the lights while leaving the room in which we stay most of the time. This results in unnecessary power wastage. Therefore, an automatic room-light controller automatically turns on the lights when a person enters into a room, and turns off the lights when the person leaves the room. This automatic room controller can be implemented by using a simple microcontroller and
+The cbjective of this project is to help conserve costs, save energy and also improve home safety. As automatic lights function only on sensing persons, waste of electricity caused by active lights in unused areas can be avoided. Minimal usage of lamps also increases lamp-life thereby reducing maintenance and replacement costs. Most of the times, many of us forget to switch off the lights while leaving the room in which we stay most of the time. This results in unnecessary power wastage. Therefore, an automatic room-light controller automatically turns on the lights when a person enters into a room, and turns off the lights when the person leaves the room. This automatic room controller can be implemented by using a simple microcontroller and sensors.
 
-Description:
+## Description:
 
-This project describes the design aspects of an automatic lighting system which involves the automatic switching on/off of lights in a room with the help of LDR sensors and PIR motion sensors, of the artificial lights in accordance to available natural light.An automatic system, when installed in a room, will sense the available ambient light as well as the persons in the room.
+This project describes the design aspects of an automatic lighting system which involves the automatic switching on/off of lights in a room with the help of LDR sensors and PIR motion sensors, of the artificial lights in accordance to available natural light.An automatic system, when installed in a room, will sense the available ambient light as well as the persons in the room. The term lighting controls is generally taken to refer to some form of electronic, or automatic solution, rather than the simple, mains ON/OFF switch. Automatic lightings help conserve costs and save energy. As automatic lights function only on sensing persons, waste of electricity caused by active lights in unused areas can be avoided.</br>
 
 ![light_on_off](https://user-images.githubusercontent.com/98833151/154866445-e8370c38-fb8c-4778-a0e2-8909de315dfa.jpg)
+
+**✳️ Components:**
+
+* Arduino Uno.</br>
+* PIR Motion Sensor.</br>
+* LDR (Photoresistor).</br>
+* 10 KOhms resistor.</br>
+* Relay module.</br>
+* LED/ any light source.</br>
+* Breadboard.</br></br>
+
+* __Arduino Uno:__ Arduino Uno is a microcontroller board based on the ATmega328P (datasheet). It has 14 digital input/output pins, 6 analog inputs, a 16 MHz ceramic resonator, a USB connection, a power jack, an ICSP header and a reset button.</br>
+* __PIR Motion Sensor:__ A device used to detect motion by receiving infrared radiation. There are two important materials present in the sensor one is the pyroelectric crystal which can detect the heat signatures from a living organism(humans & animals) and the other is a Fresnel lenses which can widen the range of the sensor.</br>
+* __LDR:__ An LDR is a component that has a variable resistance that changes with the light intensity that falls upon it. The resistance of a photoresistor decreases with increasing incident light intensity which is made of a high resistance semiconductor.</br>
 
 ## Requirement Modelling:
 
@@ -30,10 +44,11 @@ This project describes the design aspects of an automatic lighting system which 
 |LR04|The Lights turn on when counter value is greater than zero.|HR03|
 |LR05|The Lights turn off when counter value is hits zero.|HR03|
 
-## Description:
 
-:pushpin: The term lighting controls is generally taken to refer to some form of electronic, or automatic solution, rather than the simple, mains ON/OFF switch.</br>
-:pushpin: Automatic lightings help conserve costs and save energy. As automatic lights function only on sensing persons, waste of electricity caused by active lights in unused areas can be avoided.</br>
+## 5W's & 1H:
+
+<img width="524" alt="5W's 1H" src="https://user-images.githubusercontent.com/98833151/155694801-b29fdab9-9a97-403e-93b7-b4b9a8dfbfac.png">
+
 
 #### Working: 
 
@@ -41,7 +56,4 @@ This project describes the design aspects of an automatic lighting system which 
 :small_orange_diamond: If the room is bright enough then the PIR motion sensor does not activates.</br>
 :small_orange_diamond: If the room is dark only then PIR motion sensor detects the person entering the room.</br>
 
-## 5W's & 1H:
-
-<img width="524" alt="5W's 1H" src="https://user-images.githubusercontent.com/98833151/155694801-b29fdab9-9a97-403e-93b7-b4b9a8dfbfac.png">
 
