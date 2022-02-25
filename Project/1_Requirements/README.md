@@ -15,7 +15,7 @@ This project describes the design aspects of an automatic lighting system which 
 * Arduino Uno.</br>
 * PIR Motion Sensor.</br>
 * LDR (Photoresistor).</br>
-* 10 KOhms resistor.</br>
+* 10K Ohms resistor.</br>
 * Relay module.</br>
 * LED/ any light source.</br>
 * Breadboard.</br></br>
@@ -40,7 +40,7 @@ This project describes the design aspects of an automatic lighting system which 
 |:---|:---|:---|
 |LR01|The sensor detects whether the room is dark/bright.|HR01|
 |LR02|The sensor detects the persons entering and exiting the room as and when.|HR02|
-|LR03|The sensor provides the information to the microcontroller which controlls the switch.|HR02|
+|LR03|The sensor provides the information to the microcontroller which controls the switch.|HR02|
 |LR04|The Lights turn on when counter value is greater than zero.|HR03|
 |LR05|The Lights turn off when counter value is hits zero.|HR03|
 
