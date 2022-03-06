@@ -23,6 +23,10 @@ This project describes the design aspects of an automatic lighting system which 
 
 * __LDR:__ An LDR is a component that has a variable resistance that changes with the light intensity that falls upon it. The resistance of a photoresistor decreases with increasing incident light intensity which is made of a high resistance semiconductor.</br>
 
+* __LED:__ A light-emitting diode(LED) is a semiconductor light source that emits light when current flows through it.
+
+* __Resistors:__ A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. This project is done using two resistors, 221 Ohms and 10k Ohms. 221 Ohms resistor has the color code as red-red-brown-black/orange(tolerance) & 10k Ohms resistor has the color code as brown-black-orange-black(tolerance).
+
 ## Requirement Modelling:
 
 ### High Level Requirements:
