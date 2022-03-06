@@ -13,15 +13,14 @@ This project describes the design aspects of an automatic lighting system which 
 **✳️ Components:**
 
 * Arduino Uno.</br>
-* PIR Motion Sensor.</br>
 * LDR (Photoresistor).</br>
+* 221 Ohms resistor.</br>
 * 10K Ohms resistor.</br>
-* Relay module.</br>
 * LED/ any light source.</br>
-* Breadboard.</br></br>
+* Breadboard(optional).</br></br>
 
 * __Arduino Uno:__ Arduino Uno is a microcontroller board based on the ATmega328P (datasheet). It has 14 digital input/output pins, 6 analog inputs, a 16 MHz ceramic resonator, a USB connection, a power jack, an ICSP header and a reset button.</br>
-* __PIR Motion Sensor:__ A device used to detect motion by receiving infrared radiation. There are two important materials present in the sensor one is the pyroelectric crystal which can detect the heat signatures from a living organism(humans & animals) and the other is a Fresnel lenses which can widen the range of the sensor.</br>
+
 * __LDR:__ An LDR is a component that has a variable resistance that changes with the light intensity that falls upon it. The resistance of a photoresistor decreases with increasing incident light intensity which is made of a high resistance semiconductor.</br>
 
 ## Requirement Modelling:
@@ -30,19 +29,18 @@ This project describes the design aspects of an automatic lighting system which 
 
 |ID|Description|
 |:---|:---|
-|HR01|Sensor shall detect light/dark.|
+|HR01|Sensor shall detect day light.|
 |HR02|Sensor shall detect person.|
-|HR03|Lights should on/off.|
+|HR03|Lights shall turn on.|
+|HR04|Lights shall turn off.|
 
 ## Low Level Requirements
 
 |ID|Description|HLR ID|
 |:---|:---|:---|
-|LR01|The sensor detects whether the room is dark/bright.|HR01|
-|LR02|The sensor detects the persons entering and exiting the room as and when.|HR02|
-|LR03|The sensor provides the information to the microcontroller which controls the switch.|HR02|
-|LR04|The Lights turn on when counter value is greater than zero.|HR03|
-|LR05|The Lights turn off when counter value is hits zero.|HR03|
+|LR01|The sensor detects whether the room or surrounding is dark/bright.|HR01/HR02|
+|LR02|The lights will be turned off if there is enough light.|HR03|
+|LR03|The controller(arduino) turns on the lights if the sensor detects that its dark.|HR02|
 
 
 ## 5W's & 1H:
@@ -52,9 +50,9 @@ This project describes the design aspects of an automatic lighting system which 
 
 #### Working: 
 
-🔸 When a person comes in the range of the sensor while entering the room, the sensor detects the person and the microcontroller will turn on the light.</br>
-🔸 If the room is bright enough then the PIR motion sensor does not activates.</br>
-🔸 If the room is dark only then PIR motion sensor detects the person entering the room.</br>
+🔸 The sensor shall detect if its day/night based on the ambience of light received by the sensor.</br>
+🔸 If the room is bright enough then the LDR sensor does not activates.</br>
+🔸 If the room is dark only then LDR sensor provides the information to arduino.</br>
 
 #### Aplications:
 
