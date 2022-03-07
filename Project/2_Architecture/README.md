@@ -13,8 +13,9 @@
 
 👉Block Diagram:
 
-<img width="500" alt="ALS_block" src="https://user-images.githubusercontent.com/98833151/155695459-3b9d7a03-5a57-4597-8cd9-6711e2321fc9.png">
+![ALS_BlockDiagram](https://user-images.githubusercontent.com/98833151/157126892-17ab94c0-11f0-4b9a-8faf-b355bf363ffb.png)
 
 👉Flowchart:
 
-<img src="https://user-images.githubusercontent.com/98833151/155705678-436d3b49-1d76-4d16-bcd7-8b18b255f4f9.png" width="400" height="450" />
+![ALS_flowchart](https://user-images.githubusercontent.com/98833151/157126871-dd8c2321-83ed-48d9-aa19-2c67c08533d0.png)
+
