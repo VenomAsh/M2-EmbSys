@@ -5,15 +5,15 @@
  :point_right: Capture the actual result
 
 ## Table
-* ID, Description of Test case, Input values, Expected Output</br>
+* ID, Description of Test case, Input values, Expected Output, Actual Output & Status.</br>
 
 Table : </br>
 
-|Test ID|	Description|	Input values|	Expected Output|
-|:------|:-----------|:-------|:-------|
-| H_01 |	Check if  |	 |  |
-| H_02 |	Check if |	|	 |
-| H_03 |	Check  |	 |  |
+|Test ID|	Description|	Input values|	Expected Output| Actual Output | Status|
+|:------|:-----------|:-------|:-------|:---|:---|
+| H_01 |	Day/Night Sensing|	LDR Sensor data values | LUX between 1-500 |  LUX between 1-500 | ✅|
+| H_02 |	Detecting Person | Ultrasonic data values	|	Distance ranging between 1-50cm | Distance ranging between 1-50cm | ✅|
+| H_03 |	LED turns ON |	Both LDR & Ultrasonic data values | LED turns on if both are true | LED turns on if both are true | ✅|
 
 # OUTPUTS
 
