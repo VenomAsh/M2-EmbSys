@@ -69,10 +69,10 @@ This project describes the design aspects of an automatic lighting system which 
 
 
 #### Applications:
-🔹 Street Lighting: Street lighting is done by using LED, or solid-state lighting technology. It helps to manage all connected street lights securely and remotely.
-🔹 Lighting Scenes: Lighting control systems are programmed to create a variety of scenes or ambience. This can be brought about by controlling light fixtures, switches and lighting properties.
-🔹 Human Centric Lighting: Human Centric Lighting is about creating lighting that mimics the natural daylight that drives our bodily functions such as biological, emotional, health, or wellbeing of people. The effects adjust daily rhythms and increased alertness.
-🔹 Vertical Farming: Vertical Farming is growing of crops or plants by using light or LEDs appropriate for photosynthesis.
+🔹 Street Lighting: Street lighting is done by using LED, or solid-state lighting technology. It helps to manage all connected street lights securely and remotely.</br>
+🔹 Lighting Scenes: Lighting control systems are programmed to create a variety of scenes or ambience. This can be brought about by controlling light fixtures, switches and lighting properties.</br>
+🔹 Human Centric Lighting: Human Centric Lighting is about creating lighting that mimics the natural daylight that drives our bodily functions such as biological, emotional, health, or wellbeing of people. The effects adjust daily rhythms and increased alertness.</br>
+🔹 Vertical Farming: Vertical Farming is growing of crops or plants by using light or LEDs appropriate for photosynthesis.</br>
 
 
 
