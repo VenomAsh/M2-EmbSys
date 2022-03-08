@@ -1,5 +1,5 @@
 
-# Aplications:
+# Applications:
 
 🔹 __Street Lighting:__ Street lighting is done by using LED, or solid-state lighting technology. It helps to manage all connected street lights securely and remotely.</br>
 🔹 __Lighting Scenes:__ Lighting control systems are programmed to create a variety of scenes or ambience. This can be brought about by controlling light fixtures, switches and lighting properties.</br>
